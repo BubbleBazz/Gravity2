@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    position:absolute;
+	left: 65px;
+	top:25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5)
+}
+
+.logo:hover{
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.block_row {
+    display: inline-flex;
+justify-content: space-between;
+
+ width: 360px;
+ padding-left: 830px;
+padding-top: 33px;
+}
+
+.block_item {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.block_item:hover {
+    color: #71a89e;
+}
+ 
+.content {
+    position:absolute;
+	left: 70px;
+	top:300px;
+}
+
+.title {
+    display: inline-block;
+    width: 500px;
+    height: 224px;
+    margin-top: 200px;
+    margin-left: 65px;
+}
+.subtitle {
+    margin-top: -130px;
+    margin-left: 65px;
+}
+
+.btn {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 25px;
+    border-radius: 8px;
+    padding: 15px 10px 15px 10px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #71a89e;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+#img,#img2,#img3,#img4,#img5,#img6,#img7{
+    position:relative;
+}
+
+  #img::before{
+      content: url(../IMG/Vector5.png);
+      position: absolute;
+      left: 620px;
+      top: -300px;
+     
+    }
+
+    #img2::before{
+        content: url(../IMG/Vector6.png);
+        position: absolute;
+      left: 600px;
+      top: -300px;
+    }
+
+    #img3::after{
+        content: url(../IMG/Vector7.png);
+        position: absolute;
+        left: 727px;
+        top: -313px;
+    }
+
+    #img4::after {
+          content: url(../IMG/Vector8.png);
+          position: absolute;
+          left: 670px;
+          top: -298px;
+    }
+    
+    #img5::after{
+        content: url(../IMG/Vector9.png);
+        position: absolute;
+        left: 615px;
+          top: -277px;
+         }
+
+#img6::after{
+    content: url(../IMG/Group.png);
+    position: absolute;
+        left: 755px;
+          top: -360px;
+}
+ 
+#img7::after{
+    content: url(../IMG/Group1.png);
+    position: absolute;
+    left: 600px;
+    top: -300px;
+}
+
+.line{
+    position: absolute;
+    width: 425px; 
+    height: 2px;
+    background: red;
+    left: 827px;
+}
